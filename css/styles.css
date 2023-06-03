@@ -1,0 +1,110 @@
+body {
+  margin: 0 auto;
+}
+* {
+  box-sizing: border-box;
+}
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: small;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+#info {
+  position: relative;
+  margin: 40px;
+}
+.section-title {
+  border-bottom: #686868 solid 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+h1 {
+  color: #0e2452;
+}
+.profile-field {
+  width: 100px;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  margin: 10px;
+}
+
+.avatar {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#target,
+#education,
+#experience,
+#activity,
+#skill,
+#hobby,
+#project,
+#contact,
+#project,
+#certificate {
+  margin: 40px;
+}
+
+.section-content {
+  border-bottom: #e0e0e0 solid 1px;
+}
+.time-line,
+.Skill-name {
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.school,
+.company,
+.activity,
+.level,
+.certificate-name {
+  display: inline-block;
+  width: 64%;
+  vertical-align: top;
+}
+
+.school-name,
+.company-name,
+.activity-name {
+  font-weight: bold;
+}
+
+.Skill-name {
+  font-weight: bold;
+}
+a:link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px 0;
+}
